@@ -25,7 +25,7 @@ body{
 #lampadaOn{
     display: flex;
     align-self: center;
-    background-image: url('https://i.stack.imgur.com/ybxlO.jpg');
+    background-image: url('lampada.acesa.jpg');
     background-repeat: no-repeat;
     height: 250px;
     width: 200px;
@@ -33,7 +33,7 @@ body{
 }
 
 #lampadaOf{
-    background-image: url('https://i.stack.imgur.com/b983w.jpg'); display: flex;
+    background-image: url('lampada.apagada.jpg'); display: flex;
     align-self: center;
     background-repeat: no-repeat;
     height: 250px;
@@ -43,7 +43,7 @@ body{
 }
 
 #lampadaQuebra{
-    background-image: url('https://i.sstatic.net/MRjsF.jpg'); 
+    background-image: url('lampada.quebrada.jpg'); 
     display: flex;
     align-self: center;
     background-repeat: no-repeat;
