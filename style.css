@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    
+    
+}
+
+#lampadaOn{
+    display: flex;
+    align-self: center;
+    background-image: url('https://i.stack.imgur.com/ybxlO.jpg');
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 200px;
+    display: none;
+}
+
+#lampadaOf{
+    background-image: url('https://i.stack.imgur.com/b983w.jpg'); display: flex;
+    align-self: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 200px;
+    display: block;
+    
+}
+
+#lampadaQuebra{
+    background-image: url('https://i.sstatic.net/MRjsF.jpg'); 
+    display: flex;
+    align-self: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 200px;
+    display: none;
+}
+
+#conteinerButton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    width: 550px;
+    height: 80px;
+}
+
+#liga, #desliga{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#liga:hover, #desliga:hover{
+    color:gray;
+    background-color: rgba(0, 0, 0, 0.664);
+    transition: .5s;
+}
+
