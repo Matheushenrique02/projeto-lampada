@@ -61,13 +61,17 @@ body{
     height: 80px;
 }
 
-#liga, #desliga{
-    height: 40px;
-    width: 80px;
+#liga, #desliga,#troca{
+    height: 50px;
+    width: 90px;
     font-size: 20px;
     background-color: gray;
     border: none;
     cursor: pointer;
+}
+
+#troca{
+    display:none;
 }
 
 #liga:hover, #desliga:hover{
